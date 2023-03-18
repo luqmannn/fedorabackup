@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Basic Landing Page</title>
+     <style>
+          * {
+               margin: 0px;
+               padding: 0px;
+               box-sizing: border-box;
+          }
+          
+          nav {
+               text-align: center;
+			padding: 40px;
+               /* display: inline-block; */
+               /* align-items: center; */
+		}
+          
+          nav a {
+               color: black;
+               padding: 14px 30px;
+               font-size: 20px;
+               text-decoration: none;
+               /* margin: 30px; */
+          }
+
+          nav a:hover {
+               background-color: wheat;
+          }
+
+          .slider {
+               width: 100%;
+               height: 800px;
+               margin: 0 auto;
+               position: relative;
+               /* overflow: hidden; */
+               /* padding: 0 1%; */
+          }
+
+          .slider img {
+               width: 100%;
+               height: 100%;
+               position: absolute;
+               top: 0;
+               left: 0;
+               opacity: 0;
+               transition: opacity 1s ease-in-out;
+          }
+
+          .slider img:first-child {
+               opacity: 1;
+          }
+
+          .slider:hover img {
+               opacity: 1;
+          }
+          
+          .empty-box-1 {
+               position: relative;
+               width: 682px;
+               height: 398px;
+               background: #C4C4C4;
+               margin: 50px;
+               /* padding: 50px; */
+          }
+
+          .empty-box-2 {
+               position: relative;
+               width: 682px;
+               height: 398px;
+               background: #C4C4C4;
+               margin: 50px;
+               /* padding: 50px; */
+          }
+          
+          .lorem-1 {
+               position: relative;
+               overflow: auto;
+               float: left;
+               width: 37%;
+               height: 37%;
+               margin: 50px;
+               /* bottom: 0;
+               right: 0; */
+          }
+          
+          .lorem-2 {
+               position: relative;
+               overflow: auto;
+               float: right;
+               width: 37%;
+               height: 37%;
+               margin: 50px;
+               /* bottom: 0;
+               right: 0; */
+          }
+
+          .lorem-1 .lorem-2 p {
+               font-size: 16px;
+               line-height: 1.5;
+               color: black;
+          }
+     </style>
+</head>
+<body>
+     <nav>
+          <a href="#">HOME</a>
+          <a href="#">ABOUT</a>
+          <a href="#">DESTINATIONS</a>
+          <a href="#">GALLERY</a>
+     </nav>
+     <div class="slider">
+          <img src="wallhaven-xlr8mo.jpg" alt="">
+          <img src="wallhaven-xl633d.png" alt="">
+     </div>
+     <div class="empty-box-1">
+     </div>
+     <div class="lorem-1">
+          <p>
+               Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+               Sed suscipit, nisl ac bibendum sagittis, mauris risus facilisis 
+               quam, sit amet rhoncus urna leo a sem. Nullam dapibus aliquam velit, 
+               in auctor libero bibendum eu. Maecenas ac nulla vel elit rhoncus dictum. 
+               Suspendisse gravida eleifend metus in molestie. Ut luctus tellus quis eros 
+               blandit mollis. Praesent pellentesque, felis eget cursus vulputate, velit arcu 
+               efficitur ante, non pulvinar turpis massa ut nisi.
+               Etiam id nisl neque. Sed malesuada dapibus est, eu iaculis urna ullamcorper ut. 
+               Vestibulum eget elit elit. Nullam vulputate, felis nec pulvinar hendrerit, dui 
+               justo tempor ante, id fringilla odio metus vitae velit. Curabitur ac nisl sit 
+               amet felis auctor vehicula. Proin a erat sed velit tincidunt dictum sed nec mi. 
+          </p>
+     </div>
+     <div class="empty-box-2">
+     </div>
+     <div class="lorem-2">
+          <p>
+               Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+               Sed suscipit, nisl ac bibendum sagittis, mauris risus facilisis 
+               quam, sit amet rhoncus urna leo a sem. Nullam dapibus aliquam velit, 
+               in auctor libero bibendum eu. Maecenas ac nulla vel elit rhoncus dictum. 
+               Suspendisse gravida eleifend metus in molestie. Ut luctus tellus quis eros 
+               blandit mollis. Praesent pellentesque, felis eget cursus vulputate, velit arcu 
+               efficitur ante, non pulvinar turpis massa ut nisi.
+               Etiam id nisl neque. Sed malesuada dapibus est, eu iaculis urna ullamcorper ut. 
+               Vestibulum eget elit elit. Nullam vulputate, felis nec pulvinar hendrerit, dui 
+               justo tempor ante, id fringilla odio metus vitae velit. Curabitur ac nisl sit 
+               amet felis auctor vehicula. Proin a erat sed velit tincidunt dictum sed nec mi. 
+          </p>
+     </div>
+</body>
+</html>
