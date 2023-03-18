@@ -1,0 +1,19 @@
+#!/usr/bin/bash
+
+if command -v jpegoptim >/dev/null 2>&1 ; then
+    echo "jpegoptim is installed"
+else
+    echo "jpegoptim is not installed"
+fi
+
+if command -v optipng >/dev/null 2>&1 ; then
+    echo "optipng is installed"
+else
+    echo "optipng is not installed"
+fi
+
+if command -v convert >/dev/null 2>&1 ; then
+    echo "ImageMagick is installed"
+else
+    echo "ImageMagick is not installed"
+fi

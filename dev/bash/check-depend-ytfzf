@@ -1,0 +1,34 @@
+#!/bin/bash
+
+echo "Checking for required packages..."
+
+if command -v curl >/dev/null 2>&1 ; then
+    echo "curl is installed"
+else
+    echo "curl is not installed"
+fi
+
+if command -v jq >/dev/null 2>&1 ; then
+    echo "jq is installed"
+else
+    echo "jq is not installed"
+fi
+
+if command -v fzf >/dev/null 2>&1 ; then
+    echo "fzf is installed"
+else
+    echo "fzf is not installed"
+fi
+
+if command -v mpv >/dev/null 2>&1 ; then
+    echo "mpv is installed"
+else
+    echo "mpv is not installed"
+fi
+
+if command -v yt-dlp >/dev/null 2>&1 ; then
+    echo "yt-dlp is installed"
+else
+    echo "yt-dlp is not installed"
+fi
+
